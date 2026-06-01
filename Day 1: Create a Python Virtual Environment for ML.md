@@ -1,4 +1,4 @@
-#Day 1: Create a Python Virtual Environment for ML
+# Day 1: Create a Python Virtual Environment for ML
 
 The xFusionCorp Industries ML team uses uv and lockfiles to keep Python dependencies reproducible across machines. A teammate has left behind a requirements.in specification that does not match the team's standard. Correct it and compile it into a pinned lockfile. 
 
@@ -16,7 +16,7 @@ uv pip compile requirements.in -o requirements.txt
 
 The resulting requirements.txt must pin each of the four top-level packages to an exact version using ==, and must also include the transitive dependencies that uv resolved.
 
-#Solution
+# Solution
 Create virtual environment in ml-env.
 ```bash
 python3 -m venv ml-env
